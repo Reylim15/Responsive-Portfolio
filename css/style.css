@@ -63,7 +63,32 @@ a{
      height: 600px;
      background-color: white;
  }
-
+ #photobox1{
+background-color: teal;
+width: 200px;
+height:45px;
+position:absolute;
+left: 20px;
+top: 150px;
+ }
+ #photobox2{
+    background-color: teal;
+    width: 200px;
+    height:45px;
+    position:absolute;
+    right: 400px;
+    top: 150px;
+     }
+ #photoname1{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: -20px;
+ }
+ #photo1{
+ position:relative;
+ }
+   
 img{
     float: left;
     padding: 20px;
@@ -146,6 +171,7 @@ width: 100%;
         width: 80%;
         margin-top: 20px;
         margin-left: 30px;
+        height: 800px;
         overflow: hidden;
     }
     
@@ -167,8 +193,8 @@ width: 100%;
         margin-left: -20px;
     }
     #centerbox{
-        height: 900px;
-        overflow: scroll;
+        height: 1200px;
+        /* overflow: scroll; */
     }
 
  
