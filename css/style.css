@@ -1,0 +1,156 @@
+body{
+    /* background-color: grey; */
+    background-image: url("../images/papyrus.png");
+    margin: 0;
+}
+#header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 5px;
+    border-top-style: solid;
+    border-top-color: grey;
+
+}
+#innerheader{
+    margin-left: auto;
+    margin-right: auto;
+   width:1000px;
+   height: 100px;
+   text-align: center;
+   /* background-color: red; */
+}
+#Name{ 
+    background-color: teal;
+    width: 30%;
+    padding:10px;
+    float: left;
+    text-align: center;
+    color: white;
+
+}
+#nav{
+text-decoration: none;
+float: right;
+padding: 10px;
+line-height: 85px;
+word-spacing: 10px;
+color: grey;
+font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#centerbox{ clear: both;
+   padding: 20px;
+   bottom: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+    width: 960px;
+    height: 500px;
+    background-color: white;
+}
+#centerbox2{ clear: both;
+    padding: 20px;
+    bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+     width: 960px;
+     height: 600px;
+     background-color: white;
+ }
+
+img{
+    float: left;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    color: grey;
+    font-size: 20px;
+    line-height: 1.6;
+    /* float:left; */
+}
+#me{
+color: teal;
+padding: 20px;}
+label{
+    padding: 20px;
+    font-size: 20px;
+}
+#label2{
+height: 200px;
+}
+input{
+    padding: 5px;
+    width: 100%;
+}
+button{
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height: 40px;
+
+}
+
+#footer{
+    width:100%;
+    color: white;
+    background-color: grey;
+    text-align: center; 
+    padding: 20px;
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: teal;
+    position: fixed; bottom: 0;
+}
+
+@media screen and (max-width: 980px) {
+    #header{
+margin-left: 30px;
+width: 100%;
+} 
+#innerheader{
+    width: 100%;
+} 
+#nav{
+    margin-right: 40px;
+}
+
+#centerbox{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+#Name{width: 30%;}
+}
+#label2{
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    #centerbox{
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 30px;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    img{ width: 90%;
+    }
+    #centerbox{
+        height: 900px;
+        overflow: scroll;
+    }
+
+ 
+    
+}
